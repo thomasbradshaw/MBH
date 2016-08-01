@@ -97,6 +97,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyLocationCell" forIndexPath:indexPath];
+  
+    UIFont *myFont = [UIFont fontWithName: @"Avenir-Light" size: 18.0];
+    cell.textLabel.font = myFont;
 
     LocationDoc *doc = [self.locations objectAtIndex:indexPath.row];
     
