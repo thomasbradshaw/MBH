@@ -12,7 +12,7 @@
 // tb - Forward reference
 @class LocationData;
 
-NSString *_docPath;
+//NSString *_docPath;
 
 @interface LocationDoc : NSObject
 
