@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MBH/DetailViewController.m"
-            timestampString = "453849775.023933"
+            timestampString = "585588505.2635961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221">
+            startingLineNumber = "220"
+            endingLineNumber = "220">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

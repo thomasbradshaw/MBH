@@ -133,7 +133,7 @@
             
             // tb - Present picker in main thread
             dispatch_async(dispatch_get_main_queue(), ^{
-                [self.navigationController presentViewController:_picker animated:YES completion:nil];
+              [self.navigationController presentViewController:self->_picker animated:YES completion:nil];
                 [SVProgressHUD dismiss];
             });
         });
@@ -190,7 +190,7 @@
             self.detailItem.fullImage = fullImage;
             self.detailItem.thumbImage = thumbImage;
             self.imageView.image = fullImage;
-            [_detailItem saveImages];
+          [self->_detailItem saveImages];
             
             [SVProgressHUD dismiss];
         });
